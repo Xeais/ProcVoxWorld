@@ -1,0 +1,21 @@
+glslangValidator.exe Block.vert
+glslangValidator.exe Block.frag
+glslangValidator.exe Deferred.vert
+glslangValidator.exe Deferred.frag
+glslangValidator.exe Deferred2.vert
+glslangValidator.exe Deferred2.frag
+glslangValidator.exe HandItem.vert
+glslangValidator.exe HandItem.frag
+glslangValidator.exe Line.vert
+glslangValidator.exe Line.frag
+glslangValidator.exe PiP.vert
+glslangValidator.exe PiP.frag
+glslangValidator.exe Shadow.vert
+glslangValidator.exe Shadow.frag
+glslangValidator.exe Skybox.vert
+glslangValidator.exe Skybox.frag
+glslangValidator.exe Sun.vert
+glslangValidator.exe Sun.frag
+glslangValidator.exe Test.vert
+glslangValidator.exe Test.frag
+pause

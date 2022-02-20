@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{43bc1cd8-84f3-4b6f-b7de-b265f633eaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Textures">
+      <UniqueIdentifier>{3eff86c5-c7a2-4162-a154-c6a50301d83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Textures\Skybox">
+      <UniqueIdentifier>{834cb95b-18db-4f92-9d10-aa284c1d4bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Textures\Skybox\Day">
+      <UniqueIdentifier>{6bd2052d-b06c-4eb8-904c-d42b1aa5f9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Textures\Skybox\Evening">
+      <UniqueIdentifier>{2b0568e8-5dc8-4e00-88ea-f04101f1f6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\Textures\Skybox\Night">
+      <UniqueIdentifier>{964ff0a6-4a1f-44d4-a4c6-3ca3ec2cf105}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Camera\Camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraController.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map\Block.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map\Chunk.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map\Map.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map\ThreadWorker.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\Player.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerController.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerPhysics.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Configuration.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Database.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framebuffer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HashMap.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LinkedList.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NoiseGenerator.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CLIFormat.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TimeMeasurement.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WorldGenerator.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Camera\Camera.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraController.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Block.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Chunk.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Map.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\ThreadWorker.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Player.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerController.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerPhysics.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Configuration.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Database.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FastNoiseLite.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framebuffer.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NoiseGenerator.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TimeMeasurement.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WorldGenerator.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\X64-Windows\Include\glad\glad.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\X64-Windows\Include\ini\ini.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\X64-Windows\Include\SQLite\sqlite3.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\X64-Windows\Include\stb\stb_image.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\X64-Windows\Include\TinyCThread\tinycthread.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Log.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shaders\Block.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Block.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Deferred.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Deferred.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Deferred2.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Deferred2.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\HandItem.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\HandItem.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Line.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Line.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\PiP.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\PiP.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Shadow.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Shadow.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Skybox.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Skybox.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Sun.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Sun.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Test.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Source\Shaders\Test.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\Blocks.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Moon.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Sun.png">
+      <Filter>Ressourcendateien\Textures</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Day\Back.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Day</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Day\Bottom.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Day</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Day\Front.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Day</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Day\Left.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Day</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Day\Right.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Day</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Day\Sky.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Day</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Day\Top.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Day</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Evening\Back.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Evening</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Evening\Bottom.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Evening</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Evening\Front.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Evening</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Evening\Left.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Evening</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Evening\Right.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Evening</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Evening\Sky.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Evening</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Evening\Top.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Evening</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Night\Back.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Night</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Night\Bottom.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Night</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Night\Front.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Night</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Night\Left.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Night</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Night\Right.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Night</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Night\Sky.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Night</Filter>
+    </Image>
+    <Image Include="Textures\Skybox\Night\Top.png">
+      <Filter>Ressourcendateien\Textures\Skybox\Night</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

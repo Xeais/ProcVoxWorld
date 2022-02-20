@@ -1,0 +1,12 @@
+.*        # Ignore everything starting with a dot.
+*.exe    # Disregard all EXE-files.
+Bin/*    # Matches e.g. "Bin/Test.json" (a regular file) and also "Bin/Foo" (a directory).
+Maps/*  # Ditto
+
+# More examples:
+#   - The pattern "hello.*" matches any file or directory whose name begins with "hello.".
+#     To exclude all subdirectories, prepend the pattern with a slash, i.e. "/hello.*".
+#   - In turn, "foo/" will conform to a directory "foo" and all paths underneath it;
+#     it will not correspond to a regular file or a symbolic link named "foo".
+#   - Closing, "doc/frotz" and "/doc/frotz" have the same effect in any ".gitignore"-file.
+#     In other words, a leading slash is not relevant if the pattern already has a middle slash.
