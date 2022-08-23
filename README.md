@@ -14,7 +14,7 @@ A huge procedurally generated voxel world with coherent graphics
 - Almost infinite multithreaded world generation
 - Six different biomes, each with a unique heightmap
 - Player physics (on land plus in water)
-- Voxels (alternative: blocks) can be deleted and placed freely.
+- Voxels (alternatively: blocks) can be deleted and placed freely.
 - [SQLite](https://sqlite.org)-database to store map and player information.
 - Depth of field (smooth/non-smooth)
 - Motion blur
@@ -51,7 +51,7 @@ The release versions run with ...
 |[GLFW](https://www.glfw.org)                              |3.3.6  |[vcpkg](https://vcpkg.io) (I compiled the library myself.)                           |
 |[glad](https://github.com/Dav1dde/glad/)                  |0.1.35 |[Webservice](https://glad.dav1d.de)                                                  |
 |[cglm](https://cglm.readthedocs.io)                       |0.8.4  |[GitHub-Release](https://github.com/recp/cglm/releases/tag/v0.8.4/) (see above, GLFW)|
-|[TinyCThread](https://tinycthread.github.io).             |1.2    |[GitHub](https://github.com/tinycthread/tinycthread/tree/master/source/)             |
+|[TinyCThread](https://tinycthread.github.io)              |1.2    |[GitHub](https://github.com/tinycthread/tinycthread/tree/master/source/)             |
 |[ini](https://github.com/rxi/ini/)                        |0.1.1  |[GitHub](https://github.com/rxi/ini/tree/master/src/)                                |
 |[stb_image](https://github.com/nothings/stb/)             |2.27   |[GitHub](https://github.com/nothings/stb/blob/master/stb_image.h)                    |
 |[SQLite](https://www.sqlite.org)                          |3.37.0 |[Vcpkg](https://vcpkg.io)                                                            |
